@@ -1,0 +1,23 @@
+.search-books-block{
+    padding: 2rem;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    .search-inputs{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        input{
+            margin: 1rem;
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            width: 30rem;
+        }
+    }
+
+    
+    
+}
+

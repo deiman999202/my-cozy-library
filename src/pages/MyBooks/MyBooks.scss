@@ -1,0 +1,11 @@
+.my-books{
+    padding: 2rem;
+    min-height: 80vh;
+    .choose-type{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0 auto;
+      
+    }
+}

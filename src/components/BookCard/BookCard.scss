@@ -1,0 +1,56 @@
+@use '../../Global.scss';
+
+.book-card{
+    text-align: center;
+    position: relative;
+    padding: 0 0.5rem;
+    border: 1px solid Global.$secondary-color;
+    min-height: 45rem;
+    .isRead{
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: Global.$secondary-color;
+    }
+    span{
+        font-weight: bold;
+    }
+    a{
+        color: #000;
+        display: block;
+    }
+    .name{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .language{
+        margin: 1rem;
+    }
+    .image{
+        margin-top: 1rem;
+        width: 10rem;
+    }
+    .description{
+        max-height: 6rem;
+        overflow: hidden;
+    }
+    .add{
+
+        background-color: Global.$primary-color;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        width: 80%;
+    }
+    .bottom{
+        bottom: 1rem;
+    }
+    .top{
+        bottom: 5rem;
+    }
+    .delete-btn{
+        background-color: Global.$secondary-color;
+    }
+}

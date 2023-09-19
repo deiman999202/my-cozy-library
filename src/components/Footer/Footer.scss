@@ -1,0 +1,15 @@
+@use '../../Global.scss';
+
+footer{
+    text-align: center;
+    background-color: Global.$primary-color;
+    padding: 0.2rem 0;
+    h2{
+        color: #fff;
+        a{
+            color: inherit;
+            font-size: 1.5rem;
+            text-decoration: underline;
+        }
+    }
+}

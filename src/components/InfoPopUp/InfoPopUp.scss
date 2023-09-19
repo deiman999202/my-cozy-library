@@ -1,0 +1,32 @@
+.pop-up-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000067;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    .pop-up-box{
+        background-color: #fff;
+        color: #000;
+        width: 35rem;
+        min-height: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        img{
+            width: 5rem;
+        }
+        h2{
+            font-size: 2.5rem;
+        }
+        button{
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@use "../../Global.scss";
+
+.pagination{
+    margin: 0.5rem auto;
+    display: flex;
+    max-width: 20rem;
+    overflow-x: auto;
+    gap: 2rem;
+    .pageNum{
+        cursor: pointer;
+        padding: 0.2rem 1rem;
+        border: 1px solid Global.$primary-color;
+        margin-bottom: 1rem;
+    }
+}
