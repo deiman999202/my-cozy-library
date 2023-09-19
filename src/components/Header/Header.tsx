@@ -43,9 +43,7 @@ const Header = () => {
         {Object.keys(user).length !== 0 && <Link to={'/mybooks'}>
           My Books
         </Link> }
-      </nav>
-      {/* The part with login and register buttons */}
-      <div className="login-register">
+        <div className="login-register">
         {Object.keys(user).length === 0
         ?
         <>
@@ -57,6 +55,8 @@ const Header = () => {
         }
         
       </div>
+      </nav>
+      {/* The part with login and register buttons */}
     </header>
   )
 }
