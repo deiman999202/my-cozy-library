@@ -38,7 +38,7 @@ const Header = () => {
       </Link>
       {/* The part with nav links */}
       <nav>
-        <Link to={"/"}>Find the book</Link>
+        <Link to={"/"}>Search</Link>
         <Link to={"/categories"}>Categories</Link>
         {Object.keys(user).length !== 0 && <Link to={'/mybooks'}>
           My Books
