@@ -81,7 +81,7 @@ const CategoryPage = () => {
             </span>
             <span className="category">
              <input type="radio" name="categ" id="random" onChange={(e) => fetchCategory(e.target.id)}/>
-             <label htmlFor="random">Random</label>
+             <label htmlFor="random">Random category</label>
             </span>
             <span className="category">
              <input type="radio" name="categ" id="randomBook" onChange={() => fetchRandomBook()}/>
