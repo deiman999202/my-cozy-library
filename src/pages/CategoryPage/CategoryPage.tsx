@@ -20,6 +20,8 @@ const CategoryPage = () => {
       }
     }, [startIndex, selectedCategory])
 
+    console.log(env.API_KEY)
+
     async function getBooksByCategory(category: string, startIndex: number){
       await axios.get(env.SEARCH_BOOKS_BASELINK + `?q=subject:${category}&maxResults=10&startIndex=${startIndex}&key=${env.API_KEY}`).then((response) => {
               
